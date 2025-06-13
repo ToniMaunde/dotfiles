@@ -1,0 +1,15 @@
+vim.lsp.enable({
+	"astro",
+	"bashls",
+	"clangd",
+	"cssls",
+	"gopls",
+	"lua_ls",
+	"postgres_lsp",
+	"jsonls",
+	"marksman",
+	"tailwindcss",
+	"rust",
+	"typescript-tools",
+	"nginx",
+})
