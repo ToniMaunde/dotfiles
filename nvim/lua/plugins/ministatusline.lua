@@ -13,6 +13,7 @@ return {
 			["py"] = "python",
 			["rs"] = "rust",
 			["sh"] = "bash",
+			["cpp"] = "cpp",
 		}
 
 		statusline.setup({
@@ -54,6 +55,14 @@ return {
 
 							if short_file_extension_name == "sh" then
 								extension_icon = ""
+							end
+
+							if short_file_extension_name == "c" then
+								extension_icon = ""
+							end
+
+							if short_file_extension_name == "cpp" then
+								extension_icon = ""
 							end
 
 							-- Attempt to match the short file extension name to a longer/custom name from the languages' table

@@ -7,6 +7,12 @@ return {
 			sh = {
 				glyph = "",
 			},
+			c = {
+				glyph = "",
+			},
+			cpp = {
+				glyph = "",
+			},
 		},
 	},
 }
