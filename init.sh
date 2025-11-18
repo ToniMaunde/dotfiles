@@ -19,6 +19,9 @@ for directory in "${directories[@]}"; do
 	fi
 done
 
+# copying sublime text preferences
+cp -rf "/Users/milton/Library/Application Support/Sublime Text/Packages/User" "$(pwd)"
+
 for file in "${files[@]}"; do
 	cp -f "${configPath}${file}" "$(pwd)"
 done
