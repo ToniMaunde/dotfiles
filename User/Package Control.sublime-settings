@@ -1,3 +1,12 @@
 {
-	"bootstrapped": true
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+		"Package Control",
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"Package Control",
+	],
 }

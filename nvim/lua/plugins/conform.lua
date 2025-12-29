@@ -12,7 +12,7 @@ return {
 			c = { "clang-format" },
 			cpp = { "clang-format" },
 			sql = { "sqlfmt" },
-			["*"] = { "codespell" },
+			["*"] = { "cspell" },
 			["_"] = { "trim_whitespace" },
 			-- Set the log level. Use `:ConformInfo` to see the location of the log file.
 			log_level = vim.log.levels.DEBUG,

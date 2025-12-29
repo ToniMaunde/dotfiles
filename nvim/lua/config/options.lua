@@ -76,3 +76,7 @@ vim.opt.swapfile = false
 -- instead raise a dialog asking if you wish to save the current file(s)
 -- See `:help 'confirm'`
 vim.opt.confirm = true
+
+-- Enable the native spell checking functionality
+vim.opt.spelllang = "en_us"
+vim.opt.spell = true
