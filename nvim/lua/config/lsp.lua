@@ -12,4 +12,5 @@ vim.lsp.enable({
 	"rust",
 	"typescript-tools",
 	"nginx",
+	"php",
 })
