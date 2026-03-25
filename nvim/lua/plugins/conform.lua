@@ -3,23 +3,23 @@ return {
 	opts = {
 		formatters_by_ft = {
 			lua = { "stylua" },
-			go = { "goimports", "gofmt" },
-			javascript = { "prettierd", "prettier", stop_after_first = true },
-			typescript = { "prettierd", "prettier", stop_after_first = true },
-			css = { "prettierd", "prettier", stop_after_first = true },
-			html = { "prettierd", "prettier", stop_after_first = true },
-			astro = { "prettierd", "prettier", stop_after_first = true },
-			c = { "clang-format" },
-			cpp = { "clang-format" },
+			go = { "goimports", "gofmt", lsp_format = "fallback" },
+			javascript = { "prettierd", "oxfmt", stop_after_first = true, lsp_format = "fallback" },
+			typescript = { "prettierd", "oxfmt", stop_after_first = true, lsp_format = "fallback" },
+			css = { "prettierd", "oxfmt", stop_after_first = true, lsp_format = "fallback" },
+			html = { "prettierd", "oxfmt", stop_after_first = true, lsp_format = "fallback" },
+			astro = { "prettier", "oxfmt", stop_after_first = true, lsp_format = "fallback" },
+			c = { "clang-format", lsp_format = "fallback" },
+			cpp = { "clang-format", lsp_format = "fallback" },
 			sql = { "sqlfmt" },
-			["*"] = { "cspell" },
+			["*"] = { "oxfmt" },
 			["_"] = { "trim_whitespace" },
 			-- Set the log level. Use `:ConformInfo` to see the location of the log file.
-			log_level = vim.log.levels.DEBUG,
-			-- Conform will notify you when a formatter errors
-			notify_on_error = true,
-			-- Conform will notify you when no formatters are available for the buffer
-			notify_no_formatters = true,
+			-- log_level = vim.log.levels.DEBUG,
+			-- -- Conform will notify you when a formatter errors
+			-- notify_on_error = true,
+			-- -- -- Conform will notify you when no formatters are available for the buffer
+			-- notify_no_formatters = true,
 		},
 		format_on_save = {
 			timeout_ms = 500,
