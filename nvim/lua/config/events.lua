@@ -34,7 +34,7 @@ vim.api.nvim_create_autocmd("TextYankPost", {
 local morning_theme = "catppuccin-latte"
 local afternoon_theme = "catppuccin-latte"
 local evening_theme = "catppuccin-macchiato"
-local late_evening_theme = "catppuccin-mocha"
+local late_evening_theme = "catppuccin-macchiato"
 
 local colorscheme_command = {
 	["morning"] = "colorscheme " .. morning_theme,
