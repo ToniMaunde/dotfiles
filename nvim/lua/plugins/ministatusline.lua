@@ -65,6 +65,10 @@ return {
 								extension_icon = ""
 							end
 
+							if short_file_extension_name == "astro" then
+								extension_icon = ""
+							end
+
 							-- Attempt to match the short file extension name to a longer/custom name from the languages' table
 							-- Default to the short name if there is no match
 							local long_file_extension_name = languages[short_file_extension_name]

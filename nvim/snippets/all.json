@@ -1,31 +1,31 @@
 {
   "Hack comment": {
-    "prefix": ["create a hack", "create hack", "hack", "chc"],
+    "prefix": ["hack"],
     "body": ["HACK: $0"],
     "description": "Create a HACK notice comment."
   },
   "Performance comment": {
-    "prefix": ["create a performance", "create performance", "performance", "cpc"],
+    "prefix": ["performance"],
     "body": ["PERF: $0"],
     "description": "Create a PERF improvement comment."
   },
   "Todo comment": {
-    "prefix": ["create a todo", "create todo", "todo", "ctc"],
+    "prefix": ["todo"],
     "body": ["TODO: $0"],
     "description": "Create a plain TODO improvement comment."
   },
   "Note comment": {
-    "prefix": ["create a note", "create note", "note", "cnc"],
+    "prefix": ["note"],
     "body": ["NOTE: $0"],
     "description": "Create a NOTE comment."
   },
   "Fix comment": {
-    "prefix": ["create a fix", "create fix", "cfc"],
+    "prefix": ["create fix"],
     "body": ["FIX: $0"],
     "description": "Create a FIX comment."
   },
   "Warning comment": {
-    "prefix": ["create a warning", "create warning", "warning", "cwc"],
+    "prefix": ["warning"],
     "body": ["WARNING: $0"],
     "description": "Create a WARNING comment."
   }
