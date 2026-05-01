@@ -13,6 +13,9 @@ return {
 			cpp = {
 				glyph = "",
 			},
+			astro = {
+				glyph = "",
+			},
 		},
 	},
 }
