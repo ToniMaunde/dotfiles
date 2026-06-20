@@ -1,5 +1,6 @@
 vim.lsp.enable({
 	"astro",
+	"vtsls",
 	"bashls",
 	"clangd",
 	"cssls",
@@ -9,7 +10,6 @@ vim.lsp.enable({
 	"postgres_lsp",
 	"marksman",
 	"rust",
-	"typescript-tools",
 	"nginx",
 	"php",
 })

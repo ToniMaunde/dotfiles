@@ -6,19 +6,10 @@ vim.keymap.set("n", "j", "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = tr
 
 -- NOTE: Plugins
 
--- Oil.nvim
--- vim.keymap.set("n", "-", "<cmd>Oil --float<CR>", { desc = "Open Parent directory in Oil" })
-
 -- Mini.*
 vim.keymap.set("n", "\\", "<cmd>lua MiniFiles.open()<CR>", { desc = "Open Mini.files" })
 
 vim.keymap.set("n", "<ESC>", "<cmd>lua MiniFiles.close()<CR>", { desc = "Close Mini.files" })
-
-vim.keymap.set("n", "<leader>`", "<cmd>lua Snacks.zen()<CR>", { desc = "Open zen mode" })
-
-vim.keymap.set("n", "<leader>2", "<cmd>lua Snacks.dim.enable()<CR>", { desc = "Dim the buffer" })
-
-vim.keymap.set("n", "<leader>3", "<cmd>lua Snacks.dim.disable()<CR>", { desc = "Disable dim effect" })
 
 -- Undotree
 vim.keymap.set("n", "<leader>u", "<cmd>lua require('undotree').toggle()<CR>", { desc = "Open Undotree" })

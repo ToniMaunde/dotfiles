@@ -31,10 +31,10 @@ vim.api.nvim_create_autocmd("TextYankPost", {
 })
 
 -- Change color scheme based on the time of day
-local morning_theme = "catppuccin-latte"
-local afternoon_theme = "catppuccin-latte"
-local evening_theme = "catppuccin-macchiato"
-local late_evening_theme = "catppuccin-macchiato"
+local morning_theme = "rose-pine-dawn"
+local afternoon_theme = "rose-pine-dawn"
+local evening_theme = "rose-pine-moon"
+local late_evening_theme = "rose-pine-moon"
 
 local colorscheme_command = {
 	["morning"] = "colorscheme " .. morning_theme,

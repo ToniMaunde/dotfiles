@@ -13,7 +13,6 @@ files=(starship.toml)
 for directory in "${directories[@]}"; do
 	if [ "$directory" == kitty ]; then
 		rsync -a "${configPath}${directory}" "$(pwd)" --exclude kitty-themes
-		# cp -rf "${configPath}${directory}/!kitty-theme" "$(pwd)"
 	else
 		cp -rf "${configPath}${directory}" "$(pwd)"
 	fi
@@ -25,3 +24,6 @@ cp -rf "/Users/milton/Library/Application Support/Sublime Text/Packages/User" "$
 for file in "${files[@]}"; do
 	cp -f "${configPath}${file}" "$(pwd)"
 done
+
+# copying vim configuration
+cp -rf "/Users/milton/.vim/" "$(pwd)"
